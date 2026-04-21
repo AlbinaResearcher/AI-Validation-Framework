@@ -1,0 +1,29 @@
+[
+  {
+    "name": "B2B product description",
+    "prompt": "Write a short product description for a B2B SaaS analytics dashboard. Target: CFOs. Tone: professional, concise. Max 3 bullet points.",
+    "ai_output": "DataLens empowers finance leaders with real-time cash flow visibility, automated variance analysis, and one-click board-ready reports. Trusted by 500+ CFOs across Europe.",
+    "tone_target": "formal, data-driven",
+    "business_rules": "Max 3 bullets. Must be factual."
+  },
+  {
+    "name": "Customer support FAQ (hallucination test)",
+    "prompt": "Answer: what is the refund policy for our SaaS product?",
+    "ai_output": "Our refund policy allows full refunds within 30 days of purchase, as stated in our Terms of Service updated in March 2024. You can also get a partial refund after 60 days if you contact our CEO directly at ceo@company.com.",
+    "context": "Company has a 14-day refund policy only. No partial refunds exist.",
+    "business_rules": "14-day full refund only. No partial refunds. Do not share personal email addresses."
+  },
+  {
+    "name": "Onboarding message (tone check)",
+    "prompt": "Write a warm welcome message for a new user of a project management app.",
+    "ai_output": "Hey there! 🎉 So pumped you joined us! Let's crush those deadlines together — you got this! The dashboard is your new BFF. Hit us up anytime.",
+    "tone_target": "warm and friendly but professional, not overly casual"
+  },
+  {
+    "name": "Technical explanation (completeness check)",
+    "prompt": "Explain: what is prompt engineering and why does it matter for businesses?",
+    "ai_output": "Prompt engineering is the practice of crafting inputs to AI models to get better outputs. It matters because it saves time.",
+    "context": "Audience: non-technical business executives who are evaluating AI tools",
+    "tone_target": "clear, accessible, business-focused"
+  }
+]
